@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:duration="3000"
+        android:drawable="@drawable/customgradiant4"
+        ></item>
+
+
+    <item android:duration="3000"
+        android:drawable="@drawable/customgradiant5"
+        ></item>
+
+
+    <item android:duration="3000"
+        android:drawable="@drawable/customgradiant6"
+        ></item>
+
+
+
+
+</animation-list>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/animationbackground"
+    android:background="@drawable/gradiant_animation"
+    android:layout_height="match_parent"
+    tools:context=".androidactivitys">
+
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#f7f7f7"
+        android:textStyle="bold"
+        android:id="@+id/theory1"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/gradiantblue"
+        android:text="THEORY  (DESCRIPTION)"
+        android:textSize="25dp"
+        ></Button>
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#f7f7f7"
+        android:textStyle="bold"
+        android:id="@+id/video"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/theory1"
+        android:background="@drawable/gradiantblue"
+        android:text="video"
+        android:textSize="25dp"
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "176760248741",
+    "firebase_url": "https://programingslearning.firebaseio.com",
+    "project_id": "programingslearning",
+    "storage_bucket": "programingslearning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176760248741:android:fde7a30f3ca05fdbac704c",
+        "android_client_info": {
+          "package_name": "com.example.programingslearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176760248741-jtlb4onrckstf6vt43s0v7kd7v941mcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.programingslearning",
+            "certificate_hash": "4e6af49e554b7b7882734c372b70b586cdb191d2"
+          }
+        },
+        {
+          "client_id": "176760248741-egathd27uacfk3p1fv342a1df5agb3m1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBblnRjMNgt-Jocpc3pFUqgAMQyI_kHHWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176760248741-egathd27uacfk3p1fv342a1df5agb3m1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

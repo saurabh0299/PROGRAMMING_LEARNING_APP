@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradiant_animation2"
+    android:id="@+id/animationbackground2"
+    android:layout_height="match_parent"
+    tools:context="mainscreen">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/lebhari">
+
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="LOGOUT"
+        android:background="@drawable/gradiantblue"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="30dp"
+        ></Button>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:text="TextView"
+            android:textColor="#ffffff"></TextView>
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+
+
+            android:text="TextView"
+            android:textColor="#ffffff"></TextView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/clanguage"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/gradiantrbox"
+        android:text="C"
+        android:textColor="#ffffff"
+        android:textSize="110dp"></Button>
+
+
+    <Button
+        android:id="@+id/cpluslanguage"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/clanguage"
+        android:text="C++"
+        android:textSize="70dp"
+        android:background="@drawable/gradiantrbox"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginTop="20dp"
+        ></Button>
+
+
+
+    <Button
+        android:id="@+id/android"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:text="ANDROID
+		STUDIO"
+        android:textSize="31dp"
+        android:background="@drawable/gradiantrbox"
+        android:textColor="#ffffff"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="200dp"
+        ></Button>
+
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:text="JAVA"
+        android:textSize="50dp"
+        android:background="@drawable/gradiantrbox"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/android"
+        ></Button>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
